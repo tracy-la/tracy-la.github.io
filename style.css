@@ -14,7 +14,7 @@ a {color: #000;}
   background-size: cover;
   background-position: center center;
   margin-top: 130px;
-  height: 80vh;
+  height: 85vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -90,6 +90,7 @@ input[type=checkbox]:checked ~ #menu {display: block; margin: 0 auto}
     .skills {
       width: 80%;
   }
+  .container {width: 100%;}
   .examp img{
     max-width: 150px;
     height: auto;
