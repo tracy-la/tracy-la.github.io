@@ -77,6 +77,14 @@ input[type=checkbox]:checked ~ #menu {display: block; margin: 0 auto}
   .examp {width: 80%;}
 }
 
+@media only screen and (max-width: 480px) {
+  .header-img {
+    max-height: 300px;
+    margin-bottom: -30px;}
+  .skills {width: 80%;}
+  .examp {width: 80%;}
+}
+
 #menuicon {width: 35px; height: 3px; background-color: #fff; margin: 3px 55px;}
 
 .main-content-1{
