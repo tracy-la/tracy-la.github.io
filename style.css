@@ -158,9 +158,9 @@ and (max-width : 1024px)  {
 
 .main-content-1{
     vertical-align: middle;
-  background-color: #fff;
+  background-color: #eee;
   width: 100%;
-  margin-top: 0;
+  margin-top: -27px;
   position: relative;
 }
 ._text {
@@ -174,7 +174,7 @@ and (max-width : 1024px)  {
 }
 
 .main-content-2{
-  margin-top: -19px;
+  margin-top: -26px;
     text-align: center;
     vertical-align: middle;
   background-color: #FFEC9C;
@@ -186,11 +186,11 @@ and (max-width : 1024px)  {
     vertical-align: middle;
   line-height: 1.5em;
   padding-bottom: 80px;
-  font-size: 1em;
+  font-size: 1.=em;
 }
 
 .main-content-3{
-  margin-top: -25px;
+  margin-top: -26px;
     text-align: center;
     vertical-align: middle;
   background-color: #FEE786;
@@ -206,7 +206,7 @@ and (max-width : 1024px)  {
 }
 
 .main-content-4{
-  margin-top: -30px;
+  margin-top: -32px;
     text-align: center;
     vertical-align: middle;
   background-color: #F5D07A;
@@ -222,13 +222,28 @@ and (max-width : 1024px)  {
 }
 
 .main-content-5{
-  margin-top: -25px;
+  margin-top: -27px;
     text-align: center;
     vertical-align: middle;
   background-color: #F1C063;
   width: 100%;
 }
 ._text5 {
+    color:#000;
+    text-align: center;
+    vertical-align: middle;
+  line-height: 1.5em;
+  padding-bottom: 70px;
+}
+
+.main-content-6{
+  margin-top: -27px;
+    text-align: center;
+    vertical-align: middle;
+  background-color: #FFF;
+  width: 100%;
+}
+._text6 {
     color:#000;
     text-align: center;
     vertical-align: middle;
