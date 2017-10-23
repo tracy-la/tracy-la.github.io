@@ -98,6 +98,23 @@ input[type=checkbox]:checked ~ #menu {display: block; margin: 0 auto}
   .header-img {height: 65vh;}
 }
 
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1020px)  {
+   /*Make dropdown links appear inline*/
+#navContainer ul {
+    position: static; display: none; white-space: initial;}
+  /*Create vertical spacing*/
+  #navContainer li {margin-bottom: 1px}
+  /*Make all menu links full width*/
+  #navContainer ul li,
+  #navContainer li a {width: 100%}
+  /*Display 'show menu' link*/
+  .show-menu {display: block}
+  .skills {min-width: 270px}
+  .examp {width: 10%;}
+}
+
 #menuicon {width: 35px; height: 3px; background-color: #fff; margin: 3px 55px;}
 
 .main-content-1{
@@ -177,21 +194,21 @@ input[type=checkbox]:checked ~ #menu {display: block; margin: 0 auto}
 }
 
 .skills {
-  width: 10%;
+  width: 15%;
   background-color: ;
-  min-width: 250px;
   padding: 20px 20px 0 20px;
   margin: auto 10px;
   display: inline-block;
   font-size: 0.85em;
+  vertical-align: top;
 }
 
 .examp {
   width: 25%;
   max-width: 300px;
-  min-width: 300px;
   display: inline-block;
   font-size: 0.85em;
   margin: auto 30px;
   padding: 10px 20px;
+  vertical-align: top;
 }
