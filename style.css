@@ -3,7 +3,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body {margin: 0; font-family: 'open sans', "sans-serif"; background-color: #fff; font-size: 1em}
+body {margin: 0; font-family: 'open sans', sans-serif; background-color: #fff; font-size: 1em}
 strong {font-family: helvetica;}
 a {color: #000;}
 
