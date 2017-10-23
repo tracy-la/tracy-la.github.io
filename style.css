@@ -76,9 +76,13 @@ input[type=checkbox]:checked ~ #menu {display: block; margin: 0 auto}
     max-height: 200px;}
   .header-img-txt {
     top: 25%;}
-  .header-img-txt {position:absolute; top: 40%; left: 50%; margin: 0; transform: translateX(-50%);}
-  .skills {width: 80%;}
-  .examp {width: 80%;}
+    .skills {
+      width: 80%;
+  }
+  .examp img{
+    width: 80%;
+    height: 80%;
+  }
 }
 
 #menuicon {width: 35px; height: 3px; background-color: #fff; margin: 3px 55px;}
@@ -171,8 +175,10 @@ input[type=checkbox]:checked ~ #menu {display: block; margin: 0 auto}
 
 .examp {
   width: 25%;
-  min-width: 250px;
+  max-width: 300px;
+  min-width: 300px;
   display: inline-block;
   font-size: 0.85em;
-  margin: 30px 40px 0 40px;
+  margin: auto 30px;
+  padding: 10px 20px;
 }
