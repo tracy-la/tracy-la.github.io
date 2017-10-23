@@ -100,7 +100,7 @@ input[type=checkbox]:checked ~ #menu {display: block; margin: 0 auto}
 
 @media only screen 
 and (min-width : 768px) 
-and (max-width : 1020px)  {
+and (max-width : 1024px)  {
    /*Make dropdown links appear inline*/
 #navContainer ul {
     position: static; display: none; white-space: initial;}
