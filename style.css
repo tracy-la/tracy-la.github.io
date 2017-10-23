@@ -9,7 +9,7 @@ a {color: #000;}
 
 .container {width: 100%;}
 
-.header-img {display: table; width:100%; min-height: 530px; height: auto; background-repeat:no-repeat; background-size:100%; text-align:center; background-position:center top; background-image:url('http://i66.tinypic.com/28btksk.png'); position: relative; margin-top: 135px; margin-bottom: -20px; background-color: #fff;}
+.header-img {display: table; width:100%; min-height: 830px; height: auto; background-repeat:no-repeat; background-size:100%; text-align:center; background-position:center top; background-image:url('http://i66.tinypic.com/28btksk.png'); position: relative; margin-top: 135px; margin-bottom: -20px; background-color: #fff;}
 
 .header-img-txt { position:absolute; top: 40%; left: 50%; width: 100px; display: table-cell; margin: 0; transform: translateX(-50%); width: 140px;}
 
