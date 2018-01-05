@@ -7,7 +7,7 @@ body {margin: 0; color: #515151; line-height: 1.5em;}
 
 .welcome {font-size: 1.3em; line-height: 1.6em;}
 
-h1 {font-family: lato; line-height: 1.2em; letter-spacing: 1px; margin: 0; padding-top: 120px; font-size: 40px; font-weight: normal; text-align: center; color: #414141; display: inline-block; }
+h1 {font-family: lato; line-height: 1.2em; letter-spacing: 1px; margin: 0; padding-top: 120px; font-size: 38px; font-weight: normal; text-align: center; color: #414141; display: inline-block; }
 
 h2 {font-family: lato; font-size: 1.5em; text-align: center; letter-spacing: 3px; margin: 0; color: #414141;}
 
@@ -58,18 +58,18 @@ h3 {text-align: center;}
     background-color: #666;
   }
   h1 {padding-bottom: 30px;}
-  .content { min-width: 95%;
-  padding-left: 10px;}
-  #examp{margin-left: 20px;
-    min-width: 320px;
+  .content {width: 100%; min-width: 95%;
+  padding-left: 10px;
+  max-width: 1000px;}
+  #box-display{margin-left: 20px; width: 90%;
   }
 }
 
 .main{vertical-align: middle; width: 100%; margin-top: 50px; position: relative;}
 
-.content {font-family: nunito; color:#333; vertical-align: middle; width: 60%; max-width: 1000px; padding-top: 15px; font-size: 1em; margin: auto;}
+.content {font-family: nunito; color:#333; vertical-align: middle; width: 65%; padding-top: 15px; font-size: 1em; margin: auto;}
 
-#box-display {width: 30%; background: #eee; min-width: 320px; max-width: 320px; display: inline-block; font-size: 0.9em; margin-top: auto; text-align: center; margin-bottom: auto; margin-right: 10px; padding: 15px 0px; vertical-align: top;}
+#box-display {width: 30%; background: #eee; min-width: 310px; display: inline-block; font-size: 0.9em; margin-top: auto; text-align: center; margin-bottom: 10px; margin-right: 10px; padding: 15px 0px; vertical-align: top;}
 
 .box-display-img {border: 1px solid #414141; opacity: 0.6}
 
