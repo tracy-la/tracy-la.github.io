@@ -3,29 +3,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Archivo+Black|Nunito|Raleway');
 
-body {margin: 0; color: #515151; line-height: 1.5em;}
+* {
+  box-sizing: border-box;  
+}
 
-.welcome {font-size: 1.3em; line-height: 1.6em;}
+.topnav {z-index: 1000; overflow: hidden; background-color: #888; text-align: center; background:url("http://i66.tinypic.com/e05sad.png") repeat-x; }
 
-h1 {font-family: lato; line-height: 1.2em; letter-spacing: 1px; margin: 0; padding-top: 120px; font-size: 38px; font-weight: normal; text-align: center; color: #414141; display: inline-block; }
-
-h2 {font-family: lato; font-size: 1.5em; text-align: center; letter-spacing: 3px; margin: 0; color: #414141;}
-
-h3 {text-align: center;}
-
-.button {color: #fff; text-decoration: none; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px; background: #414141; padding: 8px 80px 8px 80px; border-radius: 25px;}
-
-.button:hover {background-color: #999; color: #000; font-weight: bold;}
-
-.container {margin:0;}
-
-.header {margin: 0; height: 220px; background-color: #f3efe3; background:url("http://i67.tinypic.com/2r7t25f.png") repeat-x}
-
-.banner {height: 190px; width: 100%; text-align: center; margin: auto;}
-
-.topnav {z-index: 1000; overflow: hidden; background-color: #888; text-align: center; background:url("http://i66.tinypic.com/e05sad.png") repeat-x;}
-
-.topnav a {font-family: nunito; display: inline-block; color: #f2f2f2; text-align: center; padding: 15px 30px; max-height: 18px; min-width: 70px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; font-size: 15px;}
+.topnav a {font-family: nunito; display: inline-block; color: #f2f2f2; text-align: center; padding: 15px 30px; max-height: 45px; min-width: 70px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; font-size: 15px;}
 
 .topnav a:hover {background-color: #eee;  color: black;}
 
@@ -33,17 +17,40 @@ h3 {text-align: center;}
 
 .topnav .icon {display: none;}
 
-@media screen and (max-width: 900px) {
+#parent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.child {
+  height: auto;
+  background-color: #eee;
+  flex: 1;
+  min-width: 25%;
+  border: 5px solid white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .child {
+    min-width: 100%; 
+  }
   .topnav a:not(:first-child) {display: none;}
   .topnav a {float: left;}
   .topnav a.icon {
     float: right;
     display: block;
   }
-   h1 {padding-top: 80px;}
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
+  .child {
+    min-width: 100%; 
+  }
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -57,21 +64,36 @@ h3 {text-align: center;}
     text-align: left;
     background-color: #666;
   }
-  h1 {padding-bottom: 30px;}
-  .content {width: 100%; min-width: 95%;
-  padding-left: 10px;
-  max-width: 1000px;}
-  #box-display{margin-left: 20px; width: 90%;
-  }
 }
 
-.main{vertical-align: middle; width: 100%; margin-top: 50px; position: relative;}
 
-.content {font-family: nunito; color:#333; vertical-align: middle; width: 65%; padding-top: 15px; font-size: 1em; margin: auto;}
+/********** OTHER *********/
 
-#box-display {width: 30%; background: #eee; min-width: 310px; display: inline-block; font-size: 0.9em; margin-top: auto; text-align: center; margin-bottom: 10px; margin-right: 10px; padding: 15px 0px; vertical-align: top;}
+body {margin: 0; color: #515151; line-height: 1.5em;}
 
-.box-display-img {border: 1px solid #414141; opacity: 0.6}
+.welcome {font-size: 1.3em; line-height: 1.6em;}
+
+h1 {font-family: lato; line-height: 1.2em; letter-spacing: 1px; margin: 0; padding-top: 100px; font-size: 2.38em; font-weight: normal; text-align: center; color: #414141; display: inline-block;}
+
+h2 {font-family: lato; font-size: 1.5em; text-align: center; letter-spacing: 3px; margin: 0; color: #414141;}
+
+h3 {text-align: center;}
+
+.button-container {width: 100%;}
+
+.button {color: #fff; text-decoration: none; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px; background: #414141; border-radius: 25px; padding: 15px 30px; width: 17vw; font-family: nunito;}
+
+.button:hover {background-color: #999; color: #000; font-weight: bold;}
+
+container {margin:0;}
+
+#row-1 {width: 100%; padding: 30px; font-family: nunito;}
+
+.header {margin: 0; height: 220px; background-color: #f3efe3; background:url("http://i67.tinypic.com/2r7t25f.png") repeat-x}
+
+.banner {height: 190px; width: 100%; text-align: center; margin: auto;}
+
+.box-display-img {border: 1px solid #414141; opacity: 0.6; width: 90%;}
 
 .footer {height: 80px;background: #414141;}
 
