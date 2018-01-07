@@ -78,6 +78,7 @@ and (-webkit-min-device-pixel-ratio: 1){
   }
   #parent {
     min-width: 65%;
+    height: auto;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
