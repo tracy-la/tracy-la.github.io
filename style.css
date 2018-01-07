@@ -74,6 +74,9 @@ and (max-device-width : 1024px)  {
 .child {
     min-width: 100%; 
   }
+  #parent {
+    min-width: 100%;
+  }
 }
 
 
