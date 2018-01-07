@@ -23,6 +23,7 @@
   width: 65%;
   margin: 0 auto;
   padding-bottom: 50px;
+  background-color: #fff;
 }
 
 .child {
@@ -96,7 +97,7 @@ and (-webkit-min-device-pixel-ratio: 1){
 
 /********** OTHER *********/
 
-body {margin: 0; color: #515151; line-height: 1.5em;}
+body {margin: 0; color: #515151; line-height: 1.5em; background-color: #414141;}
 
 .welcome {font-size: 1.3em; line-height: 1.6em;}
 
@@ -112,9 +113,9 @@ h3 {text-align: center;}
 
 .button:hover {background-color: #999; color: #000; font-weight: bold;}
 
-container {margin:0; width: 100%;}
+container {margin:0; width: 100%; background-color: #fff;}
 
-#row-1 {width: 100%; padding: 30px; font-family: nunito;}
+#row-1 {width: 100%; padding: 30px; font-family: nunito; background-color: #fff;}
 
 .header {margin: 0; height: 220px; background-color: #f3efe3; background:url("http://i67.tinypic.com/2r7t25f.png") repeat-x}
 
