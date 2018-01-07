@@ -113,7 +113,7 @@ h3 {text-align: center;}
 
 .button:hover {background-color: #999; color: #000; font-weight: bold;}
 
-container {margin:0; width: 100%; background-color: #fff;}
+.container {margin:0; width: 100%; background-color: #fff;}
 
 #row-1 {width: 100%; padding: 30px; font-family: nunito; background-color: #fff;}
 
