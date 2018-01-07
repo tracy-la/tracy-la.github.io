@@ -76,8 +76,10 @@ and (max-device-width : 1024px)  {
   }
   #parent {
     min-width: 100%;
+    display: -webkit-flex; /* NEW */
     display: flex;
-  flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; /* NEW */
+    flex-wrap: wrap;
   }
 }
 
