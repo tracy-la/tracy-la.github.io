@@ -37,6 +37,9 @@
 }
 
 @media (max-width: 1024px) {
+  #parent {
+    min-width: 95%;
+  }
   .child {
     min-width: 100%; 
   }
@@ -49,6 +52,9 @@
 }
 
 @media (max-width: 1024px) {
+    #parent {
+    min-width: 95%;
+  }
   .child {
     min-width: 100%; 
   }
